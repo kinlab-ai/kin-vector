@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   release:
-    uses: firelock-ai/kin-actions/.github/workflows/cargo-registry-release.yml@v0.1.33
+    uses: kinlab-ai/kin-actions/.github/workflows/cargo-registry-release.yml@v0.1.33
     with:
       package: kin-vector
       manifest: Cargo.toml
